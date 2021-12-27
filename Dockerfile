@@ -114,7 +114,7 @@ COPY small_light.vh.default.conf /etc/ngx_small_light/conf.d/default.conf
 
 # COPY ./public /usr/share/ngx_small_light/public
 
-RUN find / -name ngx_http_small_light_module.so
+# RUN find / -name ngx_http_small_light_module.so
 
 EXPOSE 80
 
